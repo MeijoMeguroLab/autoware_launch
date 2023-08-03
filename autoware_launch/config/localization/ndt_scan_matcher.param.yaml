@@ -1,7 +1,7 @@
 /**:
   ros__parameters:
     # Use dynamic map loading
-    use_dynamic_map_loading: true
+    use_dynamic_map_loading: false
 
     # Vehicle reference frame
     base_frame: "base_link"
@@ -51,7 +51,7 @@
     num_threads: 4
 
     # The covariance of output pose
-    use_covariance_estimation: false
+    use_covariance_estimation: true
     offset_array_x: [0.0,0.0,0.5,-0.5,1.0,-1.0]
     offset_array_y: [0.5,-0.5,0.0,0.0,0.0,0.0]
 
